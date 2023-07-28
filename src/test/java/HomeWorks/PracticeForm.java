@@ -22,6 +22,15 @@ public class PracticeForm {
     void fillStudentPracticeForm(){
         open("https://demoqa.com/automation-practice-form");
         $(".main-header").shouldHave(text("Practice Form"));
+        $("#firstName").setValue("Михаил");
+        $("#lastName").setValue("Кочержинский");
+        $("#userEmail").setValue("Michelle908@mail.ru");
+        $("#userEmail").setValue("Michelle908@mail.ru");
+        $("#gender-radio-3").setValue("3");
+        $("#hobbies-checkbox-3").setValue("3");
+        $("#dateOfBirthInput").setValue("");
+        $("#subjectsContainer").setValue("");
+
 
 
     }
