@@ -36,7 +36,7 @@ public class PracticeForm {
         String firstName = "Mikhail";
         String lastName = "Kocherginski";
         String email = "Michelle908@mail.ru";
-        String mobileNumber = "+79969308634";
+        String mobileNumber = "9969308634";
         String gender = "Male";
         String birthDateDay = "20";
         String month  = "October";
