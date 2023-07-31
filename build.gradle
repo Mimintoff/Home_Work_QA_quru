@@ -8,10 +8,11 @@ repositories {
 
 dependencies {
     testImplementation(
-            'com.codeborne:selenide:6.16.1',
+            'com.codeborne:selenide:6.12.3',
             'org.junit.jupiter:junit-jupiter:5.9.2',
             'org.slf4j:slf4j-simple:2.0.5',
-            'org.junit.platform:junit-platform-launcher:1.8.2'
+            'org.junit.platform:junit-platform-launcher:1.9.2',
+            "io.github.bonigarcia:webdrivermanager:5.4.1"
     )
 }
 
